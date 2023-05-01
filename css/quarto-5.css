@@ -1,0 +1,253 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: Corbel light;
+}
+
+.container-img-nav
+{
+    background-color: rgb(0, 119, 73);
+    display: flex;
+    justify-content: center;
+}
+
+.img-nav
+{
+    height: 300px;
+}
+
+nav
+{
+    background-color: rgb(200, 200, 200);
+    display: block;
+    text-align: center;
+    padding: 15px 50px;
+}
+
+nav a
+{
+    padding: 15px 50px;
+    color: black;
+    text-decoration: none;
+    font-family: Corbel;
+}
+
+nav a:hover
+{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.logo-alojamento img
+{
+    max-width: 100%;
+}
+
+.logo-alojamento h1
+{
+    position: absolute;
+    left:42%;
+    bottom: 53%;
+    color: white;
+    font-family: Corbel light;
+    font-size: 45px;
+}
+
+.img-container
+{
+    display: grid;
+    justify-content: right;
+}
+
+.img-container img
+{
+    max-width: 50%;
+    padding-top: 20px;
+    transition: 0.4s;
+}
+
+.img-container img:hover
+{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.titulo
+{
+    padding: 10px 40px;
+    padding-top: 40px;
+}
+
+.titulo hr
+{
+    max-width: 92.4%;
+    justify-content: center;
+    display: flex;
+}
+
+.main-container
+{
+    padding: 10px 40px;
+    padding-bottom: 210px;
+}
+
+.info
+{
+    background-color: rgb(201, 201, 201);
+    width: 44%;
+    float: left;
+    font-size: 13px;
+    margin-bottom: 3px;
+    padding: 16px 20px;
+    margin-right: 3px;
+}
+
+.info i
+{
+    padding: 10px;
+}
+
+.text 
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text-2
+{
+    font-size: 17px;
+    font-style: italic;
+    padding: 10px;
+}
+
+.info-final
+{
+    padding: 10px 40px;
+    text-justify: inter-word;
+    text-align: justify;
+    padding-bottom: 70px;
+}
+
+.titulo-reservas
+{
+    padding: 10px 40px;
+    padding-top: 40px;
+}
+
+.titulo-reservas hr
+{
+    max-width: 92.4%;
+    justify-content: center;
+    display: flex;
+}
+
+.reservas p
+{
+
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.reservas 
+{
+    padding: 10px 40px;
+}
+
+.reservas button
+{
+    padding: 10px 10px;
+    font-size: 16px;
+    background-color: rgb(0, 119, 73);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reservas button:hover
+{
+    background-color: rgb(0, 160, 100);
+}
+
+.btn-dir
+{
+    padding: 10px 40px;
+    padding-bottom: 100px;
+}
+
+.btn-dir button
+{
+    padding: 10px 10px;
+    font-size: 16px;
+    background-color: rgb(0, 119, 73);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-dir button:hover
+{
+    background-color: rgb(0, 160, 100);
+}
+
+footer
+{
+    background-color: rgb(66, 66, 66);
+    padding: 10px 50px;
+}
+
+.footer-1 a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-2
+{
+    padding-top: 20px;
+}
+
+.footer-2 i
+{
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.footer-3
+{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-final
+{
+    background-color: rgb(24, 24, 24);
+    padding: 20px 10px;
+}
+
+.footer-final a
+{
+    text-decoration: none;
+    color: rgb(122, 122, 122);
+    display: flex;
+    justify-content: center;
+}
+
+.footer-final a:hover
+{
+    color: rgb(219, 219, 219);
+}
+
+.footer-final h3
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+}

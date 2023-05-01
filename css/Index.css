@@ -1,0 +1,258 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: Corbel light;
+}
+
+.container-img-nav
+{
+    background-color: rgb(0, 119, 73);
+    display: flex;
+    justify-content: center;
+}
+
+.img-nav
+{
+    height: 300px;
+}
+
+nav
+{
+    background-color: rgb(200, 200, 200);
+    display: block;
+    text-align: center;
+    padding: 15px 50px;
+}
+
+nav a
+{
+    padding: 15px 50px;
+    color: black;
+    text-decoration: none;
+    font-family: Corbel;
+}
+
+nav a:hover
+{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.selection-1
+{
+    display: flex;
+    justify-content: center;
+    padding: 11px;
+    padding-bottom: 50px;
+}
+
+.legenda
+{
+    position: absolute;
+    left: 18%;
+    bottom: 45%;
+    color: white;
+    font-family: Corbel;
+    font-size: 25px;
+}
+
+.slider 
+{
+    width: 100%;
+    max-width: 1000px;
+    height: 600px;
+    max-height: 1000px;
+    position: relative;
+}   
+
+.slider img
+{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 800ms;
+}   
+
+.slider img.selected 
+{ 
+    opacity: 1;
+}
+
+
+.text-titulo
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px;
+    background-color: rgb(230, 230, 230);
+}
+
+.text-titulo h2
+{
+    font-family: Corbel light;
+    font-size: 40px;
+}
+
+.text-btn
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    background-color: rgb(230, 230, 230);
+}
+
+.text-btn a
+{
+    font-family: Corbel;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+}
+
+.fa
+{
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.img-container
+{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(230, 230, 230);
+    padding: 10px 0px;
+}
+
+.quartos
+{
+    overflow: hidden;
+}
+
+.quartos img
+{
+    width: 100%;
+    transition: all .4s;
+}
+
+.quartos:hover img
+{
+    transform: scale(1.1);
+}
+
+.quartos h2
+{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.quartos a
+{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    font-family: Corbel;
+}
+
+table
+{
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(/img/padrao.jpg);
+    background-repeat: round;
+}
+
+table, th, td
+{
+    border:none;
+    padding: 10px;
+}
+
+table img
+{
+    max-width: 75%;
+}
+
+th
+{
+    padding-top: 100px;  
+}
+
+td
+{
+    font-family: Corbel;
+    font-size: 20px;
+}
+
+footer
+{
+    background-color: rgb(66, 66, 66);
+    padding: 10px 50px;
+}
+
+.footer-1 a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-2
+{
+    padding-top: 20px;
+}
+
+.footer-2 i
+{
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.footer-3
+{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-final
+{
+    background-color: rgb(24, 24, 24);
+    padding: 20px 10px;
+}
+
+.footer-final a
+{
+    text-decoration: none;
+    color: rgb(122, 122, 122);
+    display: flex;
+    justify-content: center;
+}
+
+.footer-final a:hover
+{
+    color: rgb(219, 219, 219);
+}
+
+.footer-final h3
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+}

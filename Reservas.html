@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Dugin</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/Reservas.css">
+</head>
+<body>
+    <div class="container-img-nav">
+        <img class="img-nav" src="img/img-nav.png" alt="">
+    </div>
+
+    <nav>
+        <a href="Index.html">Home</a>
+        <a href="Alojamento.html">Alojamento</a>
+        <a href="Reservas.html">Reservas</a>
+        <a href="Restaurante.html">Restaurante</a>
+        <a href="Contatos.html">Contatos</a>
+    </nav>
+
+    <form>
+        <div class="container-form">
+            <h2>Reservas</h2>
+            <br>
+            <label for="fname">Nome Completo</label>
+            <br>
+            <input type="text" id="fname" name="fname" placeholder="Nome..." required>
+            <br><br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="Email..." required>
+            <br><br>
+            <label for="tele">Telemovel</label>
+            <br>
+            <input type="number" id="tele" name="tele" placeholder="Telemovel..." required>
+            <br><br>
+            <label for="assunto">Quarto</label>
+            <br>
+            <select id="opcao">
+                <option value="0">-- Selecione um quarto --</option>
+                <option value="1">Quarto Executivo -- 50€</option>
+                <option value="2">Quarto Casal -- 25€</option>
+                <option value="3">Quarto Idividual Duplo -- 20€</option>
+                <option value="4">Quarto Cidade -- 30€</option>
+                <option value="5">Quarto Boss -- 100€</option>
+                <option value="6">Quarto Praia -- 75€</option>
+            </select>
+            <br><br>
+            <label for="noites">Noites</label >
+            <br>
+            <input type="number" id="noites" name="noites" placeholder="Numero de Noites..." required>
+            <br><br>
+            <input type="submit" id="submit" value="Reservar" onclick="Noites()">
+            <label for="preco">boas</label>
+        </div>
+    </form>
+
+    <script src="Java/Reserva.js"></script>
+</body>
+</html>
